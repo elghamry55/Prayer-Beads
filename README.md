@@ -1,16 +1,55 @@
-# digital_tasbeeh
+# Digital Tasbeeh
 
-A new Flutter project.
+A Flutter application for digital tasbeeh and daily dhikr, designed to provide a simple and focused remembrance experience.
+
+## Overview
+
+Digital Tasbeeh is a mobile application built with Flutter and Dart. It uses Cubit/Bloc for state management and organizes the experience around the home and tasbeeh screens.
+
+## Features
+
+- Digital tasbeeh counting experience.
+- Dhikr selection and counting.
+- State management using Cubit and flutter_bloc.
+- Dedicated splash, start, and home screens.
+- Local image assets for the application interface.
+
+## Tech Stack
+
+| Area | Technologies |
+| --- | --- |
+| Framework | Flutter, Dart |
+| State management | flutter_bloc, Cubit |
+| UI | Material Design |
+| Assets | Local images |
+| Development tools | Android Studio, Git, GitHub |
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Requirements
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK compatible with the constraint in `pubspec.yaml`
+- Android Studio or another Flutter-supported IDE
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Run the project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/elghamry55/Prayer-Beads.git
+cd Prayer-Beads
+flutter pub get
+flutter run
+```
+
+## Screenshots
+
+Screenshots will be added to this section.
+
+## Developer
+
+**Mahmoud Elghamry**  
+Flutter Developer
+
+---
+
+*This project is part of my Flutter mobile development portfolio.*
