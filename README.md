@@ -1,45 +1,39 @@
 # Digital Tasbeeh
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-Framework-02569B?logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Language-Dart-0175C2?logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/State%20Management-Cubit-764ABC" alt="Cubit" />
-  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-3DDC84" alt="Platforms" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Cubit-764ABC?style=for-the-badge" alt="Cubit" />
 </p>
 
-A Flutter application for digital tasbeeh and daily dhikr, designed to provide a simple and focused remembrance experience.
-
-## Overview
-
-Digital Tasbeeh is a mobile application built with Flutter and Dart. It uses Cubit/Bloc for state management and organizes the experience around the home and tasbeeh screens.
+A Flutter application for digital tasbeeh and daily dhikr. The app provides a focused counting experience with dhikr selection and a simple navigation flow.
 
 ## Features
 
-- Digital tasbeeh counting experience.
+- Digital tasbeeh counting.
 - Dhikr selection and counting.
-- State management using Cubit and flutter_bloc.
-- Dedicated splash, start, and home screens.
-- Local image assets for the application interface.
+- Splash, start, and home screens.
+- Cubit-based state management.
+- Local image assets used by the interface.
 
-## Tech Stack
+## Technology Stack
 
-| Area | Technologies |
+| Technology | Usage |
 | --- | --- |
-| Framework | Flutter, Dart |
-| State management | flutter_bloc, Cubit |
-| UI | Material Design |
-| Assets | Local images |
-| Development tools | Android Studio, Git, GitHub |
+| Flutter & Dart | Mobile application development |
+| flutter_bloc / Cubit | State management |
+| Material Design | UI components |
+| Local assets | Application imagery |
 
 ## Getting Started
 
 ### Requirements
 
 - Flutter SDK
-- Dart SDK compatible with the constraint in `pubspec.yaml`
-- Android Studio or another Flutter-supported IDE
+- Dart SDK compatible with the project's `pubspec.yaml`
+- Android Studio, VS Code, or another Flutter-supported IDE
 
-### Run the project
+### Run locally
 
 ```bash
 git clone https://github.com/elghamry55/Prayer-Beads.git
@@ -48,15 +42,6 @@ flutter pub get
 flutter run
 ```
 
-## Screenshots
-
-Screenshots will be added to this section.
-
 ## Developer
 
-**Mahmoud Elghamry**  
-Flutter Developer
-
----
-
-*This project is part of my Flutter mobile development portfolio.*
+**Mahmoud Elghamry** · Flutter Developer
